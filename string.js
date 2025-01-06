@@ -61,7 +61,7 @@ function lengthOfLongestSubstring(str){
     maxLength = Math.max(maxLength,right-left +1)
     console.log(maxLength,left,right)
     }
-    return maxLength
+    return maxLength 
     }
     console.log(lengthOfLongestSubstring("abcabcbb"));
     
